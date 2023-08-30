@@ -9,8 +9,7 @@ import Share from '../components/inputs/Share'
 import Card from '../components/dataDisplay/Card'
 import Anchor from '../components/dataDisplay/Anchor'
 import Container from '../components/dataDisplay/Container'
-import MainTitle from '../components/dataDisplay/MainTitle'
-import SubTitle from '../components/dataDisplay/SubTitle'
+import Text from '../components/dataDisplay/Text'
 import Divider from '../components/dataDisplay/Divider'
 
 const Product = () => {
@@ -23,16 +22,24 @@ const Product = () => {
                         <StarRating />
                     </div>
                     <div>
-                        <MainTitle value='Bicicleta MTB Marlin Celeste 5 Talla S Aro 27.5"' />
+                        <Text value='Bicicleta MTB Marlin Celeste 5 Talla S Aro 27.5"' type='main-contrast' />
                         <div className='flex justify-between'>
                             <div>
-                                <SubTitle value='Vendido por: Paris' />
-                                <SubTitle value='SKU 375223999' />
+                                <Text value='Vendido por: Paris' type='sub' />
+                                <Text value='SKU 375223999' type='sub' />
                             </div>
                             <div className='flex align-middle'>
                                 <Share size='l' />
                             </div>
                         </div>
+                    </div>
+                    <Divider />
+                    <div className='flex justify-start'>
+                        <Text value='$ 410.000' type='main' extra='p-2' />
+                        <div className='bg-slate-300 rounded-md flex justify-center'>
+                            <Text value='50%' type='sub-contrast' extra='p-2' />
+                        </div>
+                        <Text value='Antes: $820.000' type='sub' extra='p-2' />
                     </div>
                     <Divider />
                     <div className='flex justify-center'>

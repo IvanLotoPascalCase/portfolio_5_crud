@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 // DEFAULT VIEW
-import Home from './pages/Product';
+import Home from './pages/Home';
 
 // DEVELOPING VIEWS
 import Product from './pages/Product';
