@@ -7,7 +7,7 @@ const Share = ({ size }) => {
     return (
         <button type='submit' className='rounded-full hover:bg-orange-300 transition-colors p-4'>
             <span className={shareStyle}>
-                <AiOutlineShareAlt/>
+                <AiOutlineShareAlt />
             </span>
         </button>
     )

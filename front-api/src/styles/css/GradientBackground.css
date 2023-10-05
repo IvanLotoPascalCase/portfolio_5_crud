@@ -1,0 +1,9 @@
+:root {
+    --bg-gradient-from: #74b1da;
+    --bg-gradient-to: #deba96; 
+}
+
+.bg-gradient-to-b {
+    background: linear-gradient(to bottom, var(--bg-gradient-from), var(--bg-gradient-to));
+}
+  
