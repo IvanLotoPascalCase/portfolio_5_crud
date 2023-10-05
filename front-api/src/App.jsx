@@ -8,6 +8,7 @@ import Home from './pages/Home';
 // DEVELOPING VIEWS
 import Product from './pages/Product';
 import Navbar from './pages/Navbar';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
-        <Route path="/nav-dev" element={<Navbar />} />
+        <Route path="/Andres" element={<Footer />} />
       </Routes>
     </>
   )
