@@ -15,7 +15,7 @@ const Home = () => {
           <BackgroundCard value="Camisas"/>
           <BackgroundCard value="Chaquetas" />
           <BackgroundCard value="Zapatillas" />
-          <BackgroundCard value="Pantalones" />
+          <BackgroundCard value="PantalonesW" />
         </div>
       </Container>
       <Footer />

@@ -14,7 +14,7 @@ function BackgroundCard({value: option}) {
     case "Chaquetas":
       switchUrl = c2;
       break;
-    case "Pantalones":
+    case "PantalonesW":
       switchUrl = c3;
       break;
     case "Zapatillas":
@@ -31,7 +31,7 @@ function BackgroundCard({value: option}) {
       style={{ backgroundImage: `url(${switchUrl})` }}
     >
       <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600">
-        Mi Botón
+        {option}
       </button>
     </div>
   );

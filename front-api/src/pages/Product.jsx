@@ -16,9 +16,9 @@ const Product = () => {
     return (
         <>
             <Container>
-                <Card>
+                <Card className="font-Raleway">
                     <div className='flex justify-between'>
-                        <Anchor url='https://www.paris.cl/trek' value='Trek' newTab={true} />
+                        <Anchor url='https://www.parissian.cl/trek' value='Nike' newTab={true} />
                         <StarRating />
                     </div>
                     <div>
