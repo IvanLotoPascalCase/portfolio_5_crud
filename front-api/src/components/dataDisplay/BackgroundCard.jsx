@@ -3,25 +3,26 @@ import c2 from "../../assets/cards/c2.jpg";
 import c3 from "../../assets/cards/c3.jpg";
 import c4 from "../../assets/cards/c4.jpg";
 
-function BackgroundCard(value) {
+function BackgroundCard({value: option}) {
   let switchUrl = "";
 
-  switch (value) {
-    case 1:
+  switch (option) {
+    case "Camisas":
       switchUrl = c1;
-
+      console.log(switchUrl, "Prueba")
       break;
-
-    case 2:
+    case "Chaquetas":
       switchUrl = c2;
       break;
-    case 3:
+    case "Pantalones":
       switchUrl = c3;
       break;
-    case 4:
+    case "Zapatillas":
       switchUrl = c4;
       break;
-
+    default:
+      console.log("Error")
+      break;
   }
 
   return (
