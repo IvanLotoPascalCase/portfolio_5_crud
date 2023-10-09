@@ -1,30 +1,14 @@
 import React from 'react'
-import {BsPlus, BsFillLightningFill,BsGearFill} from 'react-icons/bs'
-import {FaFire, FaPoo} from 'react-icons/fa'
-/*import ReactSwitch from 'react-switch'*/
 
-const Navbar = () => {
-  
-
+export const NavBar = () => {
   return (
-    <div className='fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-slate-700 text-white shadow-lg'>
-
-      <NavbarIcon icon={<FaFire size="35" />} />
-      <NavbarIcon icon={<BsPlus size="37" />} />
-      <NavbarIcon icon={<BsFillLightningFill size="30" />} />
-      <NavbarIcon icon={<FaPoo size="30" />} />
+    <div className='flex items-center bg-gray-600 justify-between p-4 z-[100] w-full absolute'>
+        <h1 className='text-orange-500 text-4xl font-bold cursor-pointer'> Paris </h1>
+            <div>
+                <button className='text-white pr-4'>Iniciar Sesion</button>
+                <button className='bg-orange-600 px-6 py-2 rounded cursor-pointer text-white'>Crear Sesion</button>
+            </div>   
     </div>
   )
 }
-
-const NavbarIcon = ({icon, text = 'tooltip '}) => (
-  <button className="navbar-icon group">
-    {icon}
-
-    <span className="navbar-tooltip group-hover:scale-100">
-      {text}
-    </span>
-  </button>
-);
-
-export default Navbar
+export default NavBar;
