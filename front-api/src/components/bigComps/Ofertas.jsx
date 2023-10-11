@@ -18,14 +18,14 @@ const Ofertas = () => {
   return (
     <>
       <Container>
-        <div className="pt-16">
+        <div className="pt-28">
           <div className="flex justify-center">
             <Card>
               <div className="py-4">
                 <Text value="Camisa Verde - Levi's" type="main-contrast" />
               </div>
               <div
-                className="bg-cover bg-center h-screen flex items-center justify-center h-[30vh] py-2"
+                className="bg-cover bg-center h-screen flex items-center justify-center max-h-[30vh] py-2"
                 style={{ backgroundImage: `url(${coferta1})` }}
               >
               </div>
@@ -45,7 +45,7 @@ const Ofertas = () => {
                 <Text value="Camisa Cafe - Levi's" type="main-contrast" />
               </div>
               <div
-                className="bg-cover bg-center h-screen flex items-center justify-center h-[30vh] py-2"
+                className="bg-cover bg-center h-screen flex items-center justify-center max-h-[30vh] py-2"
                 style={{ backgroundImage: `url(${coferta2})` }}
               >
               </div>
@@ -65,7 +65,7 @@ const Ofertas = () => {
                 <Text value="Relaxed Blue-Jeans - Foster" type="main-contrast" />
               </div>
               <div
-                className="bg-cover bg-center h-screen flex items-center justify-center h-[30vh] py-2"
+                className="bg-cover bg-center h-screen flex items-center justify-center max-h-[30vh] py-2"
                 style={{ backgroundImage: `url(${coferta3})` }}
               >
               </div>
@@ -85,7 +85,7 @@ const Ofertas = () => {
                 <Text value="Camiseta Oversized - Nonstop" type="main-contrast" />
               </div>
               <div
-                className="bg-cover bg-center h-screen flex items-center justify-center h-[30vh] py-2"
+                className="bg-cover bg-center h-screen flex items-center justify-center max-h-[30vh] py-2"
                 style={{ backgroundImage: `url(${coferta4})` }}
               >
               </div>

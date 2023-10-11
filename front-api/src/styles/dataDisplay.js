@@ -1,6 +1,6 @@
 // ESTILO DE TARJETAS:
 export const cardStyles = {
-    body: 'border border-slate-200 bg-slate-100 m-3 p-5 inline-block min-w-[40vh]',
+    body: 'border border-slate-300 bg-slate-100 m-3 p-5 inline-block min-w-[40vh]',
 }
 
 // ESTILO DE ANCHOR: 

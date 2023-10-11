@@ -30,7 +30,7 @@ function BackgroundCard({value: option}) {
       className="bg-cover bg-center h-screen flex items-center justify-center"
       style={{ backgroundImage: `url(${switchUrl})` }}
     >
-      <button className="bg-orange-200 text-slate-800 text-xl py-2 px-4 hover:bg-blue-300 min-w-[15vh] min-h-[6vh]">
+      <button className="bg-orange-200 text-slate-800 text-xl py-2 px-4 hover:bg-blue-300 min-w-[30vh] min-h-[6vh]">
         {option}
       </button>
     </div>
