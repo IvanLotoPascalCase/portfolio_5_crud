@@ -18,14 +18,14 @@ const Ofertas = () => {
   return (
     <>
       <Container>
-        <GradientBackground>
+        <div className="pt-16">
           <div className="flex justify-center">
             <Card>
-              <div>
-                <Text value="Camisa Verde M" type="main-contrast" />
+              <div className="py-4">
+                <Text value="Camisa Verde - Levi's" type="main-contrast" />
               </div>
               <div
-                className="bg-cover bg-center h-screen flex items-center justify-center h-[32vh] py-2"
+                className="bg-cover bg-center h-screen flex items-center justify-center h-[30vh] py-2"
                 style={{ backgroundImage: `url(${coferta1})` }}
               >
               </div>
@@ -41,11 +41,11 @@ const Ofertas = () => {
               </div>
             </Card>
             <Card>
-              <div>
-                <Text value="Camisa Cafe S" type="main-contrast" />
+              <div className="py-4">
+                <Text value="Camisa Cafe - Levi's" type="main-contrast" />
               </div>
               <div
-                className="bg-cover bg-center h-screen flex items-center justify-center h-[32vh] py-2"
+                className="bg-cover bg-center h-screen flex items-center justify-center h-[30vh] py-2"
                 style={{ backgroundImage: `url(${coferta2})` }}
               >
               </div>
@@ -61,11 +61,11 @@ const Ofertas = () => {
               </div>
             </Card>
             <Card>
-              <div>
-                <Text value="Bicicleta MTB Marlin" type="main-contrast" />
+              <div className="py-4">
+                <Text value="Relaxed Blue-Jeans - Foster" type="main-contrast" />
               </div>
               <div
-                className="bg-cover bg-center h-screen flex items-center justify-center h-[32vh] py-2"
+                className="bg-cover bg-center h-screen flex items-center justify-center h-[30vh] py-2"
                 style={{ backgroundImage: `url(${coferta3})` }}
               >
               </div>
@@ -81,11 +81,11 @@ const Ofertas = () => {
               </div>
             </Card>
             <Card>
-              <div>
-                <Text value="Bicicleta MTB Marlin" type="main-contrast" />
+              <div className="py-4">
+                <Text value="Camiseta Oversized - Nonstop" type="main-contrast" />
               </div>
               <div
-                className="bg-cover bg-center h-screen flex items-center justify-center h-[32vh] py-2"
+                className="bg-cover bg-center h-screen flex items-center justify-center h-[30vh] py-2"
                 style={{ backgroundImage: `url(${coferta4})` }}
               >
               </div>
@@ -101,7 +101,7 @@ const Ofertas = () => {
               </div>
             </Card>
           </div>
-        </GradientBackground>
+        </div>
       </Container>
     </>
   );

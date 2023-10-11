@@ -11,11 +11,11 @@ const Home = () => {
       <Navbar />
       <Ofertas />
       <Container>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4">
           <BackgroundCard value="Camisas"/>
           <BackgroundCard value="Chaquetas" />
           <BackgroundCard value="Zapatillas" />
-          <BackgroundCard value="PantalonesW" />
+          <BackgroundCard value="Pantalones" />
         </div>
       </Container>
       <Footer />
