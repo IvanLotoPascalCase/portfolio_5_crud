@@ -15,6 +15,9 @@ export default {
         gray: colors.gray,
 
       },
+      fontFamily: {
+        'Raleway': ['Raleway', 'sans-serif'],
+      },
     },
   },
   plugins: [],

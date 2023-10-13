@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import Ofertas from "../components/bigComps/Ofertas";
 import Footer from "./Footer";
 import BackgroundCard from "../components/dataDisplay/BackgroundCard";
+import Container from "../components/dataDisplay/Container";
 
 
 const Home = () => {
@@ -9,11 +10,15 @@ const Home = () => {
     <>
       <Navbar />
       <Ofertas />
-      <BackgroundCard />
-      <BackgroundCard value ={2} />
-      <BackgroundCard value = {3}/>
-      <BackgroundCard value = {4} />
-      <Footer/>
+      <Container>
+        <div className="grid grid-cols-4">
+          <BackgroundCard value="Camisas"/>
+          <BackgroundCard value="Chaquetas" />
+          <BackgroundCard value="Zapatillas" />
+          <BackgroundCard value="Pantalones" />
+        </div>
+      </Container>
+      <Footer />
     </>
   );
 };
