@@ -1,18 +1,38 @@
-import birdi from '../assets/logo/birdi.svg'
-export const NavBar = () => {
+import birdi from '../assets/logo/birdi.svg';
+import { FaUser } from 'react-icons/fa';
+import SearchInput from '../components/inputs/SearchInput'
+
+const NavBar = () => {
   return (
-    <div className='flex items-center bg-gray-100 justify-between p-4 z-[100] w-full absolute'>
-      <div className='flex items-center gap-4'>
-        <span className='pl-10'>
-          <img className='w-20 stroke-cyan-200' src={birdi} alt="logo"/>
+    <nav>
+      {/* Sección superior */}
+      <div className="flex items-center justify-between bg-gray-100 pt-4">
+        {/* Logo */}
+        <span className="pl-10 flex items-center">
+          <img className='w-20 stroke-cyan-200 pr-4 py-2' src={birdi} alt="logo" />
+          <h1 className='text-orange-500 text-4xl font-bold cursor-pointer'> Birdi </h1>
         </span>
-        <h1 className='text-orange-500 text-4xl font-bold cursor-pointer'> Birdi </h1>
+
+        {/* Barra de búsqueda */}
+        <SearchInput/>
+
+        {/* Botón de usuario login/signup */}
+        <div className="bg-gray-600 p-4 text-2xl mr-10">
+          <FaUser className="text-white" />
+        </div>
       </div>
-      <div>
-        <button className='text-slate-800 pr-4'>Iniciar Sesion</button>
-        <button className='bg-orange-600 px-6 py-2 rounded cursor-pointer text-white'>Crear Sesion</button>
+
+      {/* Sección inferior */}
+      <div className="mt-4 py-4 bg-gray-800">
+        {/* Botones de categorías */}
+        <div className="flex justify-around">
+          <button className="text-white mr-4">Ofertas</button>
+          <button className="text-white mr-4">Categorias</button>
+          <button className="text-white mr-4">Sobre Nosotros</button>
+        </div>
       </div>
-    </div>
-  )
-}
+    </nav>
+  );
+};
+
 export default NavBar;
