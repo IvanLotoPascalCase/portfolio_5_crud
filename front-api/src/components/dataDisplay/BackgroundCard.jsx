@@ -7,11 +7,11 @@ function BackgroundCard({value: option}) {
   let switchUrl = "";
 
   switch (option) {
-    case "Camisas":
+    case "Hombre":
       switchUrl = c1;
       console.log(switchUrl, "Prueba")
       break;
-    case "Chaquetas":
+    case "Mujer":
       switchUrl = c2;
       break;
     case "Pantalones":
