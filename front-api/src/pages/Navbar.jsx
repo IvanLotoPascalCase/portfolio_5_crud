@@ -9,21 +9,21 @@ const NavBar = () => {
       <div className="flex items-center justify-between bg-gray-100 pt-4">
         {/* Logo */}
         <span className="pl-10 flex items-center">
-          <img className='w-20 stroke-cyan-200 pr-4 py-2' src={birdi} alt="logo" />
-          <h1 className='text-orange-500 text-4xl font-bold cursor-pointer'> Birdi </h1>
+          <img className='w-20 pr-4 py-2' src={birdi} alt="logo" />
+          <h1 className='text-orange-600 text-4xl font-bold cursor-pointer'> Birdi </h1>
         </span>
 
         {/* Barra de búsqueda */}
         <SearchInput/>
 
         {/* Botón de usuario login/signup */}
-        <div className="bg-gray-600 p-4 text-2xl mr-10">
+        <div className="bg-orange-600 p-4 text-2xl mr-10">
           <FaUser className="text-white" />
         </div>
       </div>
 
       {/* Sección inferior */}
-      <div className="mt-4 py-4 bg-gray-800">
+      <div className="mt-4 py-4 bg-orange-600">
         {/* Botones de categorías */}
         <div className="flex justify-around">
           <button className="text-white mr-4">Ofertas</button>
